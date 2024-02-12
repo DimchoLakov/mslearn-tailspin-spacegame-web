@@ -16,7 +16,6 @@ stages:
     - job: 'Build'
       displayName: 'Build job'
       variables:
-        buildConfiguration: 'Release'
         wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
         dotnetSdkVersion: '6.x'
       
